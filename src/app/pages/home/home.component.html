@@ -1,23 +1,63 @@
-<header class="header">
-    <div class="container">
-        <div class="header__content flex flex__between">
-            <h1 class="header__logo">Logo</h1>
-    
-            <ul class="nav flex flex__between">
-                <li class="nav__item">
-                    <a class="nav__item--link" href="">menu</a>
+<section class="home">
+    <div class="home__content flex">
+        <div class="home__content--bg">
+            <h1 class="header__logo">
+                <img src="../../../assets/images/logo-shop.png" alt="">
+            </h1>
+
+        </div>
+        <div class="home__content--form">
+            <span class="text text__center">Bem Vindo!</span>
+            <span class="text text__small text__center text__light">Faça login com a sua conta</span>
+
+            <form action="" class="form">
+                <div class="form__group">
+                    <label for="username">Nome de usúario</label>
+                    <div class="form__control">
+                        <input type="text" id="username" name="user">
+                    </div>
+                </div>
+
+                <div class="form__group">
+                    <label for="password">Senha</label>
+                    <div class="form__control">
+                        <input type="password" id="password" name="pass">
+                    </div>
+                    <a href="#" class="link text__right">Esqueceu sua senha?</a>
+                </div>
+
+                <button class="btn btn__success" type="submit">Login</button>
+            </form>
+
+            <ul class="social flex flex__between">
+                <li class="social__link">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
                 </li>
-                <li class="nav__item">
-                    <a class="nav__item--link" href="">menu</a>
+                <li class="social__link">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                 </li>
-                <li class="nav__item">
-                    <a class="nav__item--link" href="">menu</a>
+                <li class="social__link">
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </li>
-                <li class="nav__item">
-                    <a class="nav__item--link" href="">menu</a>
+                <li class="social__link">
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+
+                <li class="social__link">
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
                 </li>
             </ul>
         </div>
 
-    </div>
-</header>
+    </div>  
+</section>
